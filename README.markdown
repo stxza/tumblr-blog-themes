@@ -6,4 +6,4 @@ Tumblr Themes
 
 Museum Theme
 -------------
-* Check [http://museumtheme.tumblr.com/post/26877552/museum-installation-use here] for info by the original author.
+* Check [here](http://museumtheme.tumblr.com/post/26877552/museum-installation-use) for info by the original author.
