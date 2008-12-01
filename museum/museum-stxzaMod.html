@@ -293,6 +293,38 @@ body#index #navigation{
 	background:#111;
 	color:#fff;}
 
+/*TAG CLOUD*/
+.min-tag-size {
+    font-size:50%;
+}
+.max-tag-size {
+    font-size:400%;
+}
+#tag_cloud {
+    font-family:'Helvetica';
+    background-color:#000;
+    padding:1em;
+}
+#tag_cloud #tag_list a {
+    color:#aaa;
+    background-color:#000;
+    border:0;
+    text-decoration:none;
+    font-weight:normal;
+}
+#tag_cloud #tag_list a:hover {
+    background-color:#aaa;
+    color:#000;
+    text-decoration:none;
+}
+#tag_cloud #tag_list {
+    list-style:none;
+}
+#tag_cloud #tag_list li {
+    display:inline;
+    line-height:1.2;
+}
+
 /*FOOTER STYLES*/	
 #footer{
 	color:#000000;
@@ -378,7 +410,7 @@ body#index .comments{display:none}
 	color:#fff;
 	text-decoration:none;}
 .searchexcerpt {
-	color:#AAA;
+	color:#aaa;
 	padding:5px 0;
 	font-size:12px;}
 .searchexcerpt span {
@@ -418,6 +450,7 @@ body#index .fade{z-index:100;position:absolute;bottom:8px;}
 		<li><a href="/mobile">mobile</a></li>
 		<li><a href="{RSS}">rss</a></li>
 		<li><a href="http://stha516.web.cse.unsw.edu.au">[~]</a></li>
+		<li><a href="/random">random</a></li>
 		</ul>
 		<div class="searchbox">
 			<script type="text/javascript">Tumblr.searchBox()</script>
@@ -608,10 +641,18 @@ body#index .fade{z-index:100;position:absolute;bottom:8px;}
 	</div>
 	
 	<div id="footer">
-                Theme / <a href="http://paulgiacherio.com" target="_blank">paulgiacherio</a> + <a href="http://github.com/stxza/tumblr-blog-themes/tree/master/museum" target="_blank">Mod</a> / <a href="http://stha516.cse.unsw.edu.au" target="_blank">seynthant</a> + Back / <a href="http://www.deviantart.com/deviation/53515147" target="_blank">manicho</a>
+    	<CENTER>
+			Theme / <a href="http://paulgiacherio.com" target="_blank">paulgiacherio</a> + <a href="http://github.com/stxza/tumblr-blog-themes/tree/master/museum" target="_blank">Mod</a> / <a href="http://stha516.cse.unsw.edu.au" target="_blank">seynthant</a> + Back / <a href="http://www.deviantart.com/deviation/53515147" target="_blank">manicho</a>
+		</CENTER>
 	</div>
 	
-</div><!--CLOSE CONTAINER-->
+</div> <!--CLOSE CONTAINER-->
+
+<!-- Start Tumblr Tag Cloud -->
+<div id="tag_cloud">
+	<script type="text/javascript" src="http://code.hr1v.com/jquery.1.2.6.min.js"></script><script type="text/javascript" src="http://tumblrtags.hr1v.com/widget.js?css=custom&minsize=120&maxsize=220"></script>
+</div>
+<!-- End Tumblr Tag Cloud -->
 
 </body>
 </html>
